@@ -25,4 +25,4 @@
         android:text="@string/products_title"
         android:textSize="@dimen/title_size" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
