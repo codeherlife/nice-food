@@ -29,9 +29,12 @@ public class MainActivity extends AppCompatActivity {
         candyList.add("Fried Rice");
         candyList.add("Steamed Vegetables");
         candyList.add("Chicken Wings");
+        candyList.add("Egg Drop Soup");
         candyList.add("Egg Rolls");
         candyList.add("Cream Cheese Wontons");
         candyList.add("Thai Tea Boba");
+
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this,
