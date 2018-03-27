@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         candyList.add("Steamed Vegetables");
         candyList.add("Chicken Wings");
         candyList.add("Egg Drop Soup");
+        candyList.add("Hot and Sour Soup");
         candyList.add("Egg Rolls");
         candyList.add("Cream Cheese Wontons");
         candyList.add("Thai Tea Boba");
