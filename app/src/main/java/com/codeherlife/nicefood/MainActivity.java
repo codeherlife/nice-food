@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         candyList.add("Egg Rolls");
         candyList.add("Cream Cheese Wontons");
         candyList.add("Pot stickers");
+        candyList.add("Crab Rangoon");
         candyList.add("Thai Tea Boba");
 
 
