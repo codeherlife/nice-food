@@ -1,10 +1,12 @@
 package com.codeherlife.nicefood;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -39,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView)this.findViewById(
                 R.id.list_view_candy);
         listView.setAdapter(adapter);
+
+        Context context = this;
+        String text = "Welcome to the Nice Food menu app!";
+        int duration = Toast.LENGTH_LONG;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+
 
     }
 }
