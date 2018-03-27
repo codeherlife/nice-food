@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         candyList.add("Kung Pao Chicken");
         candyList.add("Beef and Broccoli");
         candyList.add("Fried Fish");
+        candyList.add("Coconut Shrimp");
         candyList.add("Terriyaki Pork");
         candyList.add("Chow Mein");
         candyList.add("Fried Rice");
