@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<String> candyList = new ArrayList<String>();
 
         candyList.add("Orange Chicken");
+        candyList.add("Kung Pao Chicken");
         candyList.add("Beef and Broccoli");
         candyList.add("Chow Mein");
         candyList.add("Fried Rice");
