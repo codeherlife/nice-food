@@ -27,8 +27,9 @@
         android:id="@+id/text_view_title"/>
 
     <ListView
+        android:id="@+id/list_view_candy"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/list_view_candy"/>
+        android:padding="@dimen/activity_padding/activity_padding" />
 
 </LinearLayout>
